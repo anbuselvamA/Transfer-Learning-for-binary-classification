@@ -2,8 +2,10 @@
 ## Aim
 To Implement Transfer Learning for Horses_vs_humans dataset classification using InceptionV3 architecture.
 ## Problem Statement and Dataset
-### https://laurencemoroney.com/datasets.html
+The goal of this project is to build a machine learning model capable of accurately classifying images as either a horse or a human. This binary image classification problem involves the use of Convolutional Neural Networks (CNNs) to extract meaningful patterns and features from input images and distinguish between the two classes.
 </br>
+![image](https://github.com/user-attachments/assets/ba3be41e-a298-4435-96dd-b690fc77a335)
+
 </br>
 </br>
 
@@ -251,7 +253,7 @@ epochs = range(len(acc))
 
 plt.plot(epochs, acc, 'r', label='Training accuracy')
 plt.plot(epochs, val_acc, 'b', label='Validation accuracy')
-plt.title('Name: A.ANBUSELVAM      Register Number: 212222240009 ')
+plt.title('Name: A ANBUSELVAM      Register Number: 212222240009   ')
 plt.title('Training and validation accuracy')
 plt.legend(loc=0)
 plt.figure()
